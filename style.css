@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 .navbar-brand{
     font-size: 2rem;
     color: red;
@@ -86,14 +89,17 @@ p{
     margin-top: -15px;
     width: 107%;
 }
-.categories-large-item{
-    position: relative;
-    background: url("./img/pexels-chalo-garcia-3854884.jpg");
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    color: rgb(182, 45, 21);
-    font-size: 20px;
+.categories-large-item {
+  position: relative;
+  background: url(./img/pexels-chalo-garcia-3854884.jpg);
+  width: 100%;
+  height: 95%;
+  background-size: cover;
+  color: rgb(182, 45, 21);
+  font-size: 20px;
+  right: 0px;
+  margin-top: 8px;
+  top: -107px auto;
 }
 .categories-large-item h1{
   text-align: left;
@@ -113,23 +119,23 @@ p{
   opacity: .8;
   font-weight: bolder;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 13px;
   }
   .categories-large-item:hover button{
     font-weight: bold;
     padding: 10px 15px;
  }
-  .categories-item-1{
-    position: relative;
-    background: url("./img/pexels-evg-kowalievska-1158670.jpg");
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    color: black;
-    font-size: 20px;
-    align-items: left;
-    justify-content: left;
-    
+ .categories-item-1 {
+  position: relative;
+  background: url(./img/pexels-evg-kowalievska-1158670.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  color: black;
+  right: -7px;
+  font-size: 20px;
+  align-items: left;
+  justify-content: left;
   }
   .categories-item-1 h4{
     text-align: left;
@@ -153,16 +159,17 @@ p{
         font-weight: bold;
         margin-top: 10px;
     }
-    .categories-item-2{
-        position: relative;
-        background: url(./img/pexels-godisable-jacob-963696.jpg);
-        width: 100%;
-        height: 170px;
-        background-size: cover;
-        color: rgb(116, 15, 231);
-        font-size: 20px;
-        align-items: left;
-        justify-content: left;
+    .categories-item-2 {
+      position: relative;
+      background: url(./img/pexels-godisable-jacob-963696.jpg);
+      width: 100%;
+      right: -5px;
+      height: 170px;
+      background-size: cover;
+      color: rgb(116, 15, 231);
+      font-size: 20px;
+      align-items: left;
+      justify-content: left;
       }
       .categories-item-2 {
         text-align: right;
@@ -177,7 +184,7 @@ p{
       .categories-item-2:hover button{
         font-weight: bold;
       }
-      .categories-item-3{
+      .categories-item-3 {
         position: relative;
         background: url(./img/pexels-juan-mendez-1536619.jpg);
         width: 100%;
@@ -185,9 +192,10 @@ p{
         background-size: cover;
         color: rgb(116, 15, 231);
         font-size: 20px;
+        right: -5px;
         align-items: left;
         justify-content: left;
-      }
+    }
       .categories-item-3 h4{
         text-align: left;
         position: absolute;
@@ -202,7 +210,7 @@ p{
         position: absolute;
         top: 65%;
       }
-      .categories-item-4{
+        .categories-item-4 {
         position: relative;
         background: url(./img/pexels-key-notez-1124092.jpg);
         width: 100%;
@@ -210,8 +218,8 @@ p{
         background-size: cover;
         color: rgb(116, 15, 231);
         font-size: 20px;
-
-      }
+        right: -5px;
+        }
       .categories-item-4 h4{
         text-align: left;
         position: absolute;
@@ -270,7 +278,9 @@ p{
         font-weight: bold;
       }
       .footer{
-        top:60px;
+        margin-left: 105px;
+        width: 84.5%;
+        margin-top: -16px;
       }
       .footer-widget ul li{
         list-style-type: none;
@@ -317,3 +327,20 @@ p{
       .text-white:hover {
         cursor: pointer;
       }
+     .one{
+      margin-left: 20px;
+      position: relative;
+      margin-top: 25px;
+     }
+    .two{
+      text-align: right;
+      top: -210px;
+      color: white;
+      left: -5%;
+      position: relative;
+    }
+ .banner{
+  background-image: url(./img/pexels-andrey-matveev-14434428.jpg);
+  text-align: center;
+  position: fixed;
+ }

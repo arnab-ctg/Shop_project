@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Raleway:ital,wght@1,200&family=Sevillana&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
          <div id="header">
         <nav class="navbar navbar-expand-lg bg-danger opacity-75 fixed-top">
-        <div class="container">
-        <a class="navbar-brand" href="index.html"><span style="color:yellow">E-SHOP</span>PING <br><p style="color: rgb(27, 202, 114);">make your life enjoyable!</p></a>
+        <div class="container" >
+        <a class="navbar-brand" href="index.html" data-aos="zoom-in-up"><span style="color:yellow">E-SHOP</span>PING <br><p style="color: rgb(27, 202, 114);">make your life enjoyable!</p></a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,22 +46,22 @@
           </div>
           <div class="carousel-inner" data-bs-slide="2000">
             <div class="carousel-item active">
-              <img src="./img/istockphoto-823776146-612x612.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h1 style="color:rgb(41, 117, 22);  ">Select Your Best Product!!</h1>
-                <h3 style="color: rgb(231, 217, 12); text-transform: uppercase;">Choice your own product Today with Us!!</h3>
+              <img src="./img/pexels-jack-sparrow-4198972.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption" style="top:40%; right: -30%;">
+                <h1 style="color:rgb(72, 17, 173);" data-aos="slide-right" data-aos-duration='3000'>Select Your Best Product!!</h1>
+              <h3 style="color: rgb(245, 15, 53); text-transform: uppercase;"  data-aos="slide-left" data-aos-duration='2000'>Choice your own product Today with Us!!</h3>
               </div>
             </div>
             <div class="carousel-item"  data-bs-slide="2000">
-              <img src="./img/pexels-gustavo-fring-3985062.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <img src="./img/pexels-gustavo-fring-3985062.jpg"  class="d-block w-100" alt="...">
+              <div class="carousel-caption" style="top:40%; right: -25%;">
                 <h1 style="color:yellow; text-align: center;">Pleasure Marketing and Enjoy!!</h1>
                 <h3 style="text-transform: uppercase; color:white ">Visit Our Market for your product with great offer</h3>
               </div>
             </div>
             <div class="carousel-item"  data-bs-slide="2000">
               <img src="./img/pexels-tuấn-kiệt-jr-1372138.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption" style="top:40%; right: -25%;">
                 <h1 style="color:rgb(27, 212, 73);">Enjoy with Cultural Market!</h1>
                 <h3 style="color: white; text-transform: uppercase;">Some rural things are sell there for our neibours..</h3>
               </div>
@@ -77,67 +78,70 @@
         </div>
         </div>
       </section>
-      <section class="offer" id="offers">   
-        <div class="container">
-       <div class="row my-3 m-auto">
-        <h1 style="text-align: center; color: rgb(71, 157, 190);">FEATUERD OFFERS</h1>
+      <section class="offer" id="offers"  >   
+        <div class="container" style="background-color: antiquewhite;">
+       <div class="row m-auto">
+        <h2 data-aos="slide-down" style="text-align: center; color: rgb(71, 157, 190); text-decoration: underline;">FEATUERD OFFERS</h2>
         <marquee style="text-align: center; color: red;">DISCOUNT OFFER AVAILABLE FROM TODAY.PLEASE KEEP IT UP WITH US 24 HOURS..</marquee>
-        <br><br>
+        <br>
+        <div style="text-align: end;" class="mb-1">
+          <button class="btn btn-danger">More Items ></button>
+        </div>
         <div class="col-lg-3">
-           <div class="card bg-dark opacity-70 text-white">
-             <img src="./img/pexels-anastasiya-gepp-1462637.jpg" class="card-img-top" alt="image">
-             <div class="card-body">
+           <div class="card bg-dark  text-white text-center">
+             <img src="./img/pexels-anastasiya-gepp-1462637.jpg" data-aos="zoom-in-up" class="card-img-top" alt="image">
+             <div class="card-body" data-aos="flip-up" data-aos-duration="3000">
                <h5 class="card-title" style="color: yellowgreen;">Indie World Holiday Sale: Save up to 50%!</h5>
-               <p class="card-text">Indie,a system whether you're looking for heartfelt stories,intense battles,there's something for everyone to enjoy</p>
-               <a href="#" class="btn btn-success w-50 px-30">Shop Now</a> <br>
-               <a href="#" class="btn btn-danger mt-2">Deny</a>
+               <p class="card-text">Indie,a system whether you're looking for heartfelt stories also there's something for everyone to enjoy</p>
+               <a href="#" class="btn btn-success w-50 px-30">Shop Now</a>
+               <a href="#" class="btn btn-danger mt-0">Deny</a>
              </div>
            </div>
          </div>
          <div class="col-lg-3">
-           <div class="card bg-dark opacity-70 text-white" >
-             <img src="./img/pexels-andrea-piacquadio-845434.jpg" class="card-img-top" alt="image">
-             <div class="card-body">
+           <div class="card bg-dark  text-white text-center" >
+             <img src="./img/pexels-andrea-piacquadio-845434.jpg" data-aos="zoom-in-up" class="card-img-top" alt="image">
+             <div class="card-body" data-aos="flip-up" data-aos-duration="3000">
                <h5 class="card-title text-danger">Pleasure E-shopping:Online Tranding</h5>
                <p class="card-text">Make your time easy and comfortable for shopping, With our website.</p>
-               <a href="#" class="btn btn-success w-50 px-30">Shop Now</a> <br>
-               <a href="#" class="btn btn-danger mt-2">Deny</a>
+               <a href="#" class="btn btn-success w-50 px-30">Shop Now</a>
+               <a href="#" class="btn btn-danger">Deny</a>
              </div>
            </div>
          </div>
          <div class="col-lg-3">
-           <div class="card bg-dark opacity-70 text-white" >
-             <img src="./img/pexels-daniel-adesina-833052.jpg" class="card-img-top" alt="image">
-             <div class="card-body">
+           <div class="card bg-dark text-white text-center">
+             <img src="./img/pexels-daniel-adesina-833052.jpg" data-aos="zoom-in-up" class="card-img-top" alt="image">
+             <div class="card-body" data-aos="flip-up" data-aos-duration="3000">
                <h5 class="card-title" style="color: goldenrod;">Designer Clothes-></h5>
                <p class="card-text">We have a collection of branded clothes. That probably help you to change your look in your every cultural program or party..</p>
-               <a href="#" class="btn btn-success w-50 px-30">Shop Now</a> <br>
-               <a href="#" class="btn btn-danger mt-2">Deny</a>
+               <a href="#" class="btn btn-success w-50 px-30">Shop Now</a>
+               <a href="#" class="btn btn-danger">Deny</a>
              </div>
            </div>
          </div>
          <div class="col-lg-3">
-           <div class="card bg-dark opacity-70 text-white" >
-             <img src="./img/pexels-evg-kowalievska-1126993.jpg" class="card-img-top" alt="image">
-             <div class="card-body">
-               <h5 class="card-title">Fashion House</h5>
-               <p class="card-text">“Fashion” and staying on top of what's new, and new trends has truly change the way every life.And it make your touch different </p>
-               <a href="#" class="btn btn-success w-50 px-30">Shop Now</a> <br>
-               <a href="#" class="btn btn-danger mt-2">Deny</a>
+           <div class="card bg-dark text-white text-center">
+             <img src="./img/pexels-evg-kowalievska-1126993.jpg" data-aos="zoom-in-up" class="card-img-top" alt="image">
+             <div class="card-body" data-aos="flip-up" data-aos-duration="2000">
+               <h5 class="card-title" style="color:rgb(207, 123, 14)">Fashion House:Make Glamarous</h5>
+               <p class="card-text">“Fashion” staying on top of what's new and new trends has truly change every life.It make your touch different </p>
+               <a href="#" class="btn btn-success w-50 px-30">Shop Now</a> 
+               <a href="#" class="btn btn-danger">Deny</a>
              </div>
            </div>
          </div>
        </div>
      </div>
     </section>
-    <div class="buying text-center mt-3 mb-3" style="font-size: 25px; ">
-      <span style="border-bottom: 1px solid brown;"> GALLERY</span>
-    </div>
-      <section class="categories" id="gallery">
-        <div class="container-fluid">
+      <section class="categories container" id="gallery" style="background-color: rgb(204, 199, 149); top: -5px;">
+        <div class="buying text-center mb-0" style="font-size: 25px;">
+          <h2 style="text-decoration: underline; color:brown" class=" mt-2" data-aos="slide-right" data-aos-duration="2000"> GALLERY</h2>
+        </div>
+        <div class="container">
           <div class="row">
             <div class="col-lg-6 p-0">
-              <div class="categories-large-item ">
+              <div class="categories-large-item" data-aos="zoom-in-up" data-aos-duration="2000">
                   <h1>Glass Corner</h1><br>
                   <p>In this site different Sun Glasses are available.. <br> For 
                     safety your eyes please visit this.
@@ -148,28 +152,28 @@
             <div class="col-lg-6">
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 p-2">
-                  <div class="categories-item-1">
+                  <div class="categories-item-1"  data-aos="zoom-in-up" data-aos-duration="2000">
                     <h4>Women's fashion</h4>
                     <p>It is Fashion time to get your product as soon</p>
                     <button class="btn btn-primary"> Buy Now</button>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 p-2">
-                  <div class="categories-item-2">
+                  <div class="categories-item-2"  data-aos="zoom-in-up" data-aos-duration="2000">
                     <h4>Accessories</h4>
                     <p> 650+ items</p>
                     <button class="btn btn-primary"> Buy Now</button>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 p-2 ">
-                  <div class="categories-item-3">
+                  <div class="categories-item-3"  data-aos="zoom-in-up" data-aos-duration="2000">
                     <h4>Ladies Jeans</h4>
                     <p> 890+ items</p>
                     <button class="btn btn-primary"> Buy Now</button>
                   </div>
                 </div> 
                  <div class="col-lg-6 col-md-6 col-12 p-2">
-                  <div class="categories-item-4">
+                  <div class="categories-item-4"  data-aos="zoom-in-up" data-aos-duration="2000">
                     <h4>Others </h4>
                     <p> 500+ items</p>
                     <button class="btn btn-primary">Buy Now</button>
@@ -179,14 +183,14 @@
         </div>
       </section>
      <section class="product" id="product">
-      <div class="text-center mt-3 mb-3" style="font-size: 25px;">
-        <span style="border-bottom: 1px solid brown;">PRODUCT ITEMS</span></div>
+      <div class="text-center mt-3 mb-3">
+        <h2 style="text-decoration: underline; color: blue;">PRODUCT ITEMS</h2></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="product_item">
-              <div class="product_item_pic">
-                <img src="./img/istockphoto-926243716-612x612.jpg" class="img-fluid" style="width: 230px; height: 170px;" alt="">
+              <div class="product_item_pic" >
+                <img src="./img/pexels-justin-shaifer-1222271.jpg" data-aos="slide-down" data-aos-duration="2000" class="img-fluid" style="width: 230px; height: 170px;" alt="">
                 <div class="text" style="text-align: center;">
                   <span style="font-size: 22px;">Long_Shirt</span>
                   <p style="margin-top: 3px;">Various Shirt available for Man.. 
@@ -206,7 +210,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="product_item">
             <div class="product_item_pic">
-              <img src="./img/istockphoto-1396439350-612x612.jpg" class="img-fluid gx-3" style="height: 170px; width: 230px;" alt="">
+              <img src="./img/pexels-andrea-piacquadio-3776166.jpg" data-aos="slide-up" data-aos-duration="2000" class="img-fluid" style="height:170px; width: 100%;" alt="">
               <div class="text" style="text-align: center;">
                 <span style="font-size: 22px;">Ladies_Wear</span>
                 <p style="margin-top: 3px;">Ladies fashion and cloth corner.. 
@@ -226,7 +230,7 @@
       <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="product_item">
           <div class="product_item_pic">
-            <img src="./img/istockphoto-1431059526-612x612.jpg" class="img-fluid" style="height: 167px" alt="">
+            <img src="./img/pexels-keegan-checks-2880799.jpg" data-aos="slide-down" data-aos-duration="2000" class="img-fluid" style="height: 167px" alt="">
             <div class="text" style="text-align: center;">
               <span style="font-size: 22px;">Top_Sweater</span>
               <p style="margin-top: 3px;">For choosen woolen cloth for warm 
@@ -246,7 +250,7 @@
     <div class="col-lg-3 col-md-4 col-sm-6">
       <div class="product_item">
         <div class="product_item_pic">
-          <img src="./img/pexels-victoria-akvarel-1619697.jpg" class="img-fluid" style="height: 167px" alt="">
+          <img src="./img/pexels-victoria-akvarel-1619697.jpg" data-aos="slide-up" data-aos-duration="2000"class="img-fluid" style="height: 167px" alt="">
           <div class="text" style="text-align: center;">
             <span style="font-size: 22px;">Kids_Fashion</span>
             <p style="margin-top: 3px;">Kids item are also stock in our site 
@@ -266,7 +270,7 @@
         </div>
       </div>
       <div class="btn2 text-center top-2">
-      <button class="btn btn-danger" style="border-radius: 40px;"> For More Items  <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></button>
+      <button class="btn btn-danger"> For More Items <b>>></b> </button>
     </div>
      </section>
      <section class="shop-method ">
@@ -289,7 +293,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 m-auto">
-            <div class="single-method mt-3">
+            <div class="single-method mt-3 ">
               <i class="fa fa-lock"></i>
               <h5>Also keep <b>Privacy</b></h5>
               <p><li>Use an official online shopping app </li>
@@ -301,28 +305,27 @@
         </div>
       </div>
      </section>
-     <section id="...">
-      <div class="container" style="background-color: black; height: 35%;">
-        <marquee style="margin-top: 20px; color: red; font-size: 20px;">Login your own Account and make your order now!!  </marquee>
-         <h3 class="mb-3 text-success" style=" margin-left: 10px;"> Please! Login Your Account </h3>
-      <div class="mb-3 px-3">
-        <label for="firstname" class="form-label" style="font-weight: bold; color: white;">Username: </label><br>
-        <input type="name" class="..." id="exampleFormControlInput1" placeholder="Enter your Username">
-      </div>
-      <div class="mb-3 px-3">
-        <label for="password" class="form-label" style="font-weight: bold; color: white;">Password:</label><br>
-        <input type="password" class="..." id="exampleFormControlInput1" placeholder="Enter your Password">
-      </div>
-      <div  style="color: white; margin-left: 15px;"><input class="" type="checkbox" value="" aria-label="Checkbox for following text input"> Remember Me  <a href="#"  style="margin-left: 25px;">Forget Password?</a>
-      </div><br>
-      <button class="btn btn-primary px-3 " style="margin-left: 15px;">Login</button>
-      <div style="position:relative; left: 58%; top: -280px; color: white;"><span style="border-bottom: 2px solid white; font-size: 25px;">Need an Account?</span><br><br>
-        <p>Get started with a 15-days free trial to experience the best <br>
-          e-shopping platform.Simply click the button to get started <br> with your 100% free 15-days trial today. <br>
-       <div><button class="btn btn-success text-center" style="margin-left: 12%;">Start a free trial</button></div><br><b>Ready to start?</b> choose from our <a href="" style="color: green; text-decoration: none;">unlimited plans</a> and get <br> your  business up and straight away. <br> <b>Looking for Support?</b> Contact our team at 1-800-826-6650 <br> or by <a href="#" style="color: green;text-decoration: none;">submitting a ticket</a>  </p>
-    </div>
+     <section id="..." style="min-height: 20px;">
+      <div class="container" style="background-color: black;">
+        <marquee style="color: red; font-size: 20px;">Login your own Account and make your order now!!  </marquee>
+        <div class="one">
+          <h2 style="color: green; ">Please! Login your Form</h2>
+          <label style="color:white">Username:</label><br><input type="text" placeholder="Enter your Username"><br>
+          <label style="color:white">Password:</label><br><input type="password" placeholder="Enter your Password"><br>
+          <input type="checkbox"><span style="color: white; margin-left: 4px;">Remember Me</span><a href=""><span style="margin-left: 5%;">Forget Password?</span></a><br>
+          <button class="btn btn-success mt-2">Log in</button><br>
+        </div>
+        <div class="two">
+         <h2> Need an Account? </h2>
+          <p>Started with a 15-days free trial to experience the best <br>
+            e-shopping platform.Simply click the button to get started <br> with your 100% free 15-days trial today. <br>
+            <button class="btn btn-success text-center">Start a free trial</button> <br>
+            <b>Ready to start?</b> choose from our <a href="" style="color: green; text-decoration: none;">unlimited plans</a> and get <br> your  business up and straight away. <br> <b>Looking for Support?</b> Contact our team at 1-800-826-6650 <br> or by <a href="#" style="color: green;text-decoration: none;">submitting a ticket</a>  </p>
+         </p>    
+     
+         </div> 
        </section>
-       <section class="footer bg-secondary" id="contact">
+       <section class="footer bg-secondary ml-3" id="contact">
         <div class="container">
           <div class="row ">
             <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
@@ -387,10 +390,14 @@
             </div>
             <hr style="color: white; font-weight: bold;">
         <p style="text-align: center;">Copyright&copy;2022 E-shopping.All right reserved.Design by <a href="index.html" style="text-decoration: none; color: white;">E-shopping</a></p> 
-        
           </div>
         </div>
        </section>
         <script src="./js/bootstrap.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+     
 </body>
 </html>
